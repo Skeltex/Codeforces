@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Codeforces\\homework\\base1\\E\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44C94000-B317-4D42-BD5A-9D95FB752F18}|E\\E.vcxproj|E:\\Codeforces\\homework\\base1\\E\\E\\E.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{44C94000-B317-4D42-BD5A-9D95FB752F18}|E\\E.vcxproj|solutionrelative:E\\E.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "E.cpp",
+              "DocumentMoniker": "E:\\Codeforces\\homework\\base1\\E\\E\\E.cpp",
+              "RelativeDocumentMoniker": "E\\E.cpp",
+              "ToolTip": "E:\\Codeforces\\homework\\base1\\E\\E\\E.cpp",
+              "RelativeToolTip": "E\\E.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T16:42:45.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

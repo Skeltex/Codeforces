@@ -9,7 +9,11 @@ int main()
     unsigned short n;
     int delta;
     bool b_has_only_zeros, result;
-    
+
+    vector<int> a;
+    vector<int> b;
+
+
     cin >> t;
     bool* result_arr = new bool[t];
 
@@ -17,19 +21,19 @@ int main()
     {
         cin >> n;
 
-        vector<int> a(n);
-        vector<int> b(n);
+        a.resize(n);
+        b.resize(n);
 
-        for (short j = 0; j < n; ++j)
+        for (unsigned short j = 0; j < n; ++j)
             cin >> a[j];
 
-        for (short j = 0; j < n; ++j)
+        for (unsigned short j = 0; j < n; ++j)
             cin >> b[j];
 
 
         b_has_only_zeros = true;
         // Ищем любую разность a[j] - b[j], где b[j] != 0, заодно проверяем, что b не состоит полностью из 0 
-        for (short j = 0; j < n; ++j)
+        for (unsigned short j = 0; j < n; ++j)
         {
             if (b[j])
             {
@@ -59,7 +63,7 @@ int main()
         // а при (b[j] == 0) будет (a[j] - b[j] <= delta)
         
         result = true;
-        for (short j = 0; j < n; ++j)
+        for (unsigned short j = 0; j < n; ++j)
         {
             if (b[j])
             {
